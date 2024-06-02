@@ -59,7 +59,7 @@ export const config = {
     capabilities: [{
         platformName                : "Android",
         "appium:automationName"     : 'UiAutomator2',
-        "appium:deviceName"         : 'M2012K11AG',
+        "appium:deviceName"         : '',
         "appium:platformVersion"    : '13.0',
         "appium:app"                : path.join(process.cwd(),'./test/apk/Diet_meal.apk'),
         "appium:appPackage"         : "com.fghilmany.dietmealapp",
